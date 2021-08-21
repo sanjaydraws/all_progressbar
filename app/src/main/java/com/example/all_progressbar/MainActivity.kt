@@ -3,6 +3,7 @@ package com.example.all_progressbar
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.all_progressbar.activity.CustomLoader1Activity
+import com.example.all_progressbar.activity.Loader2Activity
 import com.example.all_progressbar.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding?.custom1?.setOnClickListener {
             CustomLoader1Activity.start(this@MainActivity)
+        }
+        binding?.animated?.setOnClickListener {
+            Loader2Activity.start(this@MainActivity)
         }
 
     }
