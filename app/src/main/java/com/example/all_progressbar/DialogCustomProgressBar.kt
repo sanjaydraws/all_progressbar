@@ -39,11 +39,7 @@ class DialogCustomProgressBar : DialogFragment() {
     }
 
 
-    interface  OtpVerificationListener{
-        fun onVerifyNProceed()
-
-    }
-
+   
 
 }
 
